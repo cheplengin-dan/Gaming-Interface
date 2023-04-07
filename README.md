@@ -2,14 +2,9 @@
 
 ## MVP
 
-Browse game categoty
-Buy the game
-refund the game
+* Browse through games. 
+* Buy the game.
+* refund the game.
 ## Product Statement
-Browse category such as: 
-* Role-playing games
-* Action games
-* Adventure games
-
-Find the game & purchase it
-If you dont like the game you can refund it
+You'll need to go to this https://cors-anywhere.herokuapp.com/corsdemo site and request temporary access to thr demo server for it to work.
+Internet connection is also needed.
