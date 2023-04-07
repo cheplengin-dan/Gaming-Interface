@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  flex-basis: 100%;
+}
+
+input[type="text"] {
+  flex-basis: 70%;
+  padding: 0.5rem;
+}
+
+button[type="submit"] {
+  flex-basis: 25%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+ul:empty::before {
+  content: 'No games found';
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  color: #ccc;
+}
+
+
+li {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+li h2 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+li p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+  
